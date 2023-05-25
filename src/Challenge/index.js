@@ -55,7 +55,7 @@ class Challenge extends Component {
 
   render (){
     const {timer,score, typedText, nthCharIndex, challengeText, showResult} = this.state
-    const {name, challengeType} = this.props
+    const {name} = this.props
 
     if (showResult) {
       return <Result name={name} score={score} nthCharIndex={nthCharIndex} />
