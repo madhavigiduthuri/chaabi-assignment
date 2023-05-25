@@ -1,0 +1,55 @@
+.challenge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: olivedrab;
+}
+
+.challenge-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 95%;
+}
+
+.challenge-wrap-top {
+    height: 250px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 0px;
+    /* margin: 5px 0px; */
+}
+
+.alphabets {
+    font-size: 26px;
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 10px;
+}
+
+.challenge-wrap-bottom {
+    height: 30vh;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.textarea-input {
+    width: 98.5%;
+    height: 260px;
+    font-size: 26px;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.nth-char {
+    background-color: orange;
+}

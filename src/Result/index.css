@@ -1,0 +1,43 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.result-wrap {
+    min-height: 90vh;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.time-up-wrapper {
+    display: flex;
+    align-items: center;
+    color: maroon;
+}
+
+.time-up-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto";
+    gap: 90px;
+    color: #ffffff;
+}
+
+.result-name {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.count {
+    width: 50%;
+}
